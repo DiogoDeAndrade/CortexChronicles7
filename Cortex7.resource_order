@@ -16,5 +16,10 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_train_car","order":1,"path":"objects/obj_train_car/obj_train_car.yy",},
+    {"name":"spr_grass","order":1,"path":"sprites/spr_grass/spr_grass.yy",},
+    {"name":"spr_train","order":2,"path":"sprites/spr_train/spr_train.yy",},
+    {"name":"train_car","order":3,"path":"sprites/train_car/train_car.yy",},
+  ],
 }
