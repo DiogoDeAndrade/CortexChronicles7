@@ -1,26 +1,25 @@
 /// @function localToWorld(object, local_x, local_y)
 /// @description Converts local position to world space for the given object.
-/// @param {instance} object - The instance with x, y, and direction representing world space position and rotation.
-/// @param {real} local_x - The local x coordinate relative to the object.
-/// @param {real} local_y - The local y coordinate relative to the object.
+/// @param {real} _offsetX - world x coordinate of the object
+/// @param {real} _offsetY - world y coordinate of the object
+/// @param {real} _rotationDegrees - rotation angle of the object
+/// @param {real} _local_x - The local x coordinate relative to the object.
+/// @param {real} _local_y - The local y coordinate relative to the object.
 /// @return {array} - An array where the first element is the world x coordinate, and the second element is the world y coordinate.
 
-function localToWorld(object, local_x, local_y) {
-    var offsetX = object.x;
-    var offsetY = object.y;
-    var rotationDegrees = object.direction;
-    
+function localToWorld(_offsetX, _offsetY, _rotationDegrees, _local_x, _local_y) {
+   
     // Convert rotation to radians
-    var rotationRadians = rotationDegrees * (pi / 180);
+    var _rotationRadians = _rotationDegrees * (pi / 180);
 
     // Rotate local position
-    var rotatedX = cos(rotationRadians) * local_x - sin(rotationRadians) * local_y;
-    var rotatedY = sin(rotationRadians) * local_x + cos(rotationRadians) * local_y;
+    var _rotatedX = cos(_rotationRadians) * _local_x - sin(_rotationRadians) * _local_y;
+    var _rotatedY = sin(_rotationRadians) * _local_x + cos(_rotationRadians) * _local_y;
 
     // Translate to world space
-    var worldX = rotatedX + offsetX;
-    var worldY = rotatedY + offsetY;
+    var _worldX = _rotatedX + _offsetX;
+    var _worldY = _rotatedY + _offsetY;
 
     // Return world position as an array
-    return [worldX, worldY];
+    return [_worldX, _worldY];
 }

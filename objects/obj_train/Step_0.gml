@@ -10,7 +10,7 @@ if (input_enable)
 
 if (joint_id == -1) && (next_car != noone)
 {
-	var _anchor_point = localToWorld(self, -4, 0)
+	var _anchor_point = localToWorld(x, y, direction, -4, 0)
 	
 	joint_id = physics_joint_revolute_create(self, next_car, _anchor_point[0], _anchor_point[1], -20, 20, true, 0, 0, false, true)
 }

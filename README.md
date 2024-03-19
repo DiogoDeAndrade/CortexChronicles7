@@ -20,6 +20,7 @@ TBD, but it has trains!
 ## Licenses
 
 - All game source code by Diogo de Andrade is licensed under the [MIT] license.
+- Top-down buildings by [chabull], licensed under [CC-BY 3.0]
 
 ## Metadata
 
@@ -27,6 +28,8 @@ TBD, but it has trains!
 
 [Diogo Andrade]:https://github.com/DiogoDeAndrade
 [CC0]:https://creativecommons.org/publicdomain/zero/1.0/
+[CC-BY 3.0]:https://creativecommons.org/licenses/by/3.0/
 [CC-BY-SA 4.0]:http://creativecommons.org/licenses/by-sa/4.0/
+[chabull]:https://opengameart.org/users/chabull
 [MIT]:LICENSE
 [GameMaker]:https://gamemaker.io/en
