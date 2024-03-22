@@ -4,12 +4,17 @@
   "eventList":[],
   "managed":true,
   "name":"obj_enemy",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"propertyId":{"name":"max_health","path":"objects/obj_base/obj_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_base",
+    "path":"objects/obj_base/obj_base.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

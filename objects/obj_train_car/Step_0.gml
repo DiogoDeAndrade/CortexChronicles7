@@ -17,10 +17,14 @@ for (var i = 0; i < n_turrets; i++)
 		// Something in range
 		var obj = _enemies[0];
 		_target = -point_direction(x, y, obj.x, obj.y) - phy_rotation;
+		
+		turret_target[i] = true
 	}
 	else
 	{
 		_target = base_cannon_rotation[i]
+		
+		turret_target[i] = false
 	}
 
 	var _delta = angle_difference(_target, current_cannon_rotation[i])

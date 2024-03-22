@@ -17,6 +17,7 @@ for (var i = 0; i < n_turrets; i++)
 {
 	current_cannon_rotation[i] = _rot;
 	base_cannon_rotation[i] = _rot;
+	turret_target[i] = false
 	
 	if (turret_orientation == 0) 
 	{
@@ -25,6 +26,11 @@ for (var i = 0; i < n_turrets; i++)
 	}
 }
 
-turret_radius = 200
+turret_radius = 400
 max_turn_speed = 2
 turret_angle = 45
+time_of_last_shot = -1000
+
+link1_pos_x = -20
+link2_pos_x = 20
+explosion_scale = 1
