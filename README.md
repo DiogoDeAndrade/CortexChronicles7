@@ -1,4 +1,4 @@
-# THE CORTEX CHRONICLES, CHAPTER 7 - TBD
+# THE CORTEX CHRONICLES, CHAPTER 7 - The Heist of Jax Riven
 
 Developed for the Game Creator's Club at Lusofona University.
 This month, the theme is Trains
@@ -16,6 +16,7 @@ TBD, but it has trains!
 ## Art
 
 - Everything done by Diogo de Andrade, licensed through the [CC0] license.
+- Top-down buildings by [chabull], licensed under [CC-BY 3.0]
 
 ## Licenses
 

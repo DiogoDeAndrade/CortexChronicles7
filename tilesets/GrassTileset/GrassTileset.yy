@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"GrassTileset",
-  "out_columns":2,
+  "out_columns":4,
   "out_tilehborder":0,
   "out_tilevborder":0,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_grass",
-    "path":"sprites/spr_grass/spr_grass.yy",
+    "name":"spr_tiles",
+    "path":"sprites/spr_tiles/spr_tiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -27,7 +27,7 @@
     "path":"texturegroups/Default",
   },
   "tileAnimation":{
-    "FrameData":[0,1,2,3,],
+    "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,],
     "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
@@ -38,5 +38,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":4,
+  "tile_count":16,
 }
