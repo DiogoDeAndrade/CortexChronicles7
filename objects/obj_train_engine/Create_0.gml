@@ -56,4 +56,14 @@ function die()
 		physics_joint_delete(self.prev_car.joint_id)
 		self.prev_car.joint_id = -1;
 	}
+	
+	var _next_car = self.next_car
+	var _t = 15
+	while (_next_car != noone)
+	{
+		var _tmp = _next_car.next_car
+		_next_car.alarm[11] = _t
+		_t += 15
+		_next_car = _tmp
+	}
 }
