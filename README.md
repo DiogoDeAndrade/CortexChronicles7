@@ -20,7 +20,8 @@ some weaknesses on the Prime Nexus. Now, they need a tactical nuclear warhead fo
 
 ## Licenses
 
-- All game source code by Diogo de Andrade is licensed under the [MIT] license.
+- Scrolling text code by [Musical Kittehs], licensed through the [CC0] license.
+- All remaining game source code by Diogo de Andrade is licensed under the [MIT] license.
 
 ## Metadata
 
@@ -32,3 +33,4 @@ some weaknesses on the Prime Nexus. Now, they need a tactical nuclear warhead fo
 [CC-BY-SA 4.0]:http://creativecommons.org/licenses/by-sa/4.0/
 [MIT]:LICENSE
 [GameMaker]:https://gamemaker.io/en
+[Musical Kittehs]:https://www.youtube.com/watch?v=3QUwo4_g3uw
