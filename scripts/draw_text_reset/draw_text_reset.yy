@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_text_reset",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_text_reset",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

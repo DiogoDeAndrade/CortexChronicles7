@@ -4,4 +4,11 @@
 // Inherit the parent event
 event_inherited();
 
-next_screen_name = rm_story01
+if wait_time > 0
+{
+	wait_time--;
+	if wait_time <= 0
+	{
+		next_step();
+	}
+}

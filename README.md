@@ -11,17 +11,16 @@ I'm going to use code, since I prefer to program than using visual tools.
 
 ## Game
 
-TBD, but it has trains!
+In this game, you play as Jax Riven, a former D-Boy turned freedom fighter. In the previous game, our heroes infiltrated the research lab of Doctor Cogwell and exposed
+some weaknesses on the Prime Nexus. Now, they need a tactical nuclear warhead for their plans, and will have to use an armored hovertrain to steal it!
 
 ## Art
 
 - Everything done by Diogo de Andrade, licensed through the [CC0] license.
-- Top-down buildings by [chabull], licensed under [CC-BY 3.0]
 
 ## Licenses
 
 - All game source code by Diogo de Andrade is licensed under the [MIT] license.
-- Top-down buildings by [chabull], licensed under [CC-BY 3.0]
 
 ## Metadata
 
@@ -31,6 +30,5 @@ TBD, but it has trains!
 [CC0]:https://creativecommons.org/publicdomain/zero/1.0/
 [CC-BY 3.0]:https://creativecommons.org/licenses/by/3.0/
 [CC-BY-SA 4.0]:http://creativecommons.org/licenses/by-sa/4.0/
-[chabull]:https://opengameart.org/users/chabull
 [MIT]:LICENSE
 [GameMaker]:https://gamemaker.io/en
