@@ -1,5 +1,7 @@
 # THE CORTEX CHRONICLES, CHAPTER 7 - The Heist of Jax Riven
 
+![GameScreenshot](art/title.png)
+
 Developed for the Game Creator's Club at Lusofona University.
 This month, the theme is Trains
 
@@ -25,7 +27,7 @@ some weaknesses on the Prime Nexus. Now, they need a tactical nuclear warhead fo
 
 ## Metadata
 
-- Autor: [Diogo Andrade]
+- Autor: [Diogo Andrade]git push
 
 [Diogo Andrade]:https://github.com/DiogoDeAndrade
 [CC0]:https://creativecommons.org/publicdomain/zero/1.0/
