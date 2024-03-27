@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_portrait_rowan",
   "bboxMode":0,
-  "bbox_bottom":255,
+  "bbox_bottom":169,
   "bbox_left":0,
-  "bbox_right":255,
+  "bbox_right":169,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"40a21aa4-e2fc-46c4-9729-8392914e7743","name":"40a21aa4-e2fc-46c4-9729-8392914e7743","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"b4ce1ef6-4de2-4d94-b1d0-d016c0c1a06f","name":"b4ce1ef6-4de2-4d94-b1d0-d016c0c1a06f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":170,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"64daad63-9c0b-404b-976b-9a9fe07fb2a5","blendMode":0,"displayName":"default","isLocked":false,"name":"64daad63-9c0b-404b-976b-9a9fe07fb2a5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"13fb2dbb-bd97-42c4-b559-746267d614ec","blendMode":0,"displayName":"default","isLocked":false,"name":"13fb2dbb-bd97-42c4-b559-746267d614ec","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_portrait_rowan",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40a21aa4-e2fc-46c4-9729-8392914e7743","path":"sprites/spr_portrait_rowan/spr_portrait_rowan.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"01b71faf-beee-40ae-8d7f-05150daa3483","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4ce1ef6-4de2-4d94-b1d0-d016c0c1a06f","path":"sprites/spr_portrait_rowan/spr_portrait_rowan.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"870236c9-b97e-4a8c-9ef7-e9e9010d1844","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":256,
+  "width":170,
 }

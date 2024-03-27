@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_portrait_nyx",
   "bboxMode":0,
-  "bbox_bottom":255,
+  "bbox_bottom":169,
   "bbox_left":0,
-  "bbox_right":255,
+  "bbox_right":169,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"59759416-998c-4b8d-be6d-be6a57633216","name":"59759416-998c-4b8d-be6d-be6a57633216","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8ff7d374-03d5-45a4-bebd-6bbeadaf51c5","name":"8ff7d374-03d5-45a4-bebd-6bbeadaf51c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":256,
+  "height":170,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"da0b6493-c9fe-428f-95c3-f3a97ca389bf","blendMode":0,"displayName":"default","isLocked":false,"name":"da0b6493-c9fe-428f-95c3-f3a97ca389bf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"40ee19ce-9595-444e-8e94-616d949b6463","blendMode":0,"displayName":"default","isLocked":false,"name":"40ee19ce-9595-444e-8e94-616d949b6463","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_portrait_nyx",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59759416-998c-4b8d-be6d-be6a57633216","path":"sprites/spr_portrait_nyx/spr_portrait_nyx.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2f1af212-a0ca-4a4a-8f93-8099137d322c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ff7d374-03d5-45a4-bebd-6bbeadaf51c5","path":"sprites/spr_portrait_nyx/spr_portrait_nyx.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"438a6e6e-3fab-425c-8508-f28bd96dbdf0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":256,
+  "width":170,
 }
