@@ -4,7 +4,7 @@ var _prev_rotation = turret_rotation
 var _ret = rotateTowards(x, y, turret_rotation, obj_train_car, max_radius, max_rotation_rate)
 if (_ret < 0)
 {
-	_ret = rotateTowards(x, y, turret_rotation, obj_train, max_radius, max_rotation_rate)
+	_ret = rotateTowards(x, y, turret_rotation, obj_train_engine, max_radius, max_rotation_rate)
 }
 
 if (_ret >= 0)
@@ -19,7 +19,7 @@ if (_ret >= 0)
 			var _wp = localToWorld(x, y, -turret_rotation, 30, 0)
 			var _rotation = turret_rotation
 
-			var _inst = instance_create_layer(_wp[0], _wp[1], "Instances", obj_big_bullet);
+			var _inst = instance_create_layer(_wp[0], _wp[1], "Bullets", obj_big_bullet);
 			with (_inst)
 			{
 				faction = 1
