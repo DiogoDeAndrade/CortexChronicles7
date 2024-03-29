@@ -1,19 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
+  "%Name":"obj_train_track",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"propertyId":{"name":"max_health","path":"objects/obj_base/obj_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
-  ],
+  "name":"obj_train_track",
+  "overriddenProperties":[],
   "parent":{
-    "name":"prev_version",
-    "path":"folders/Objects/prev_version.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_base",
-    "path":"objects/obj_base/obj_base.yy",
+    "name":"obj_scroller",
+    "path":"objects/obj_scroller/obj_scroller.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_track",
+    "path":"sprites/spr_track/spr_track.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

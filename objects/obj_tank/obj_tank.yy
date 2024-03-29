@@ -10,8 +10,8 @@
   "name":"obj_tank",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"prev_version",
+    "path":"folders/Objects/prev_version.yy",
   },
   "parentObjectId":{
     "name":"obj_enemy",

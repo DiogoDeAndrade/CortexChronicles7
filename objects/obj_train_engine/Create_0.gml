@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-rotation_speed = 2
 joint_id = -1
 link1_pos_x = -4
 link2_pos_x = 0
@@ -53,8 +52,6 @@ function die()
 		{
 			next_car.prev_car = self.prev_car
 		}
-		physics_joint_delete(self.prev_car.joint_id)
-		self.prev_car.joint_id = -1;
 	}
 	
 	var _next_car = self.next_car
