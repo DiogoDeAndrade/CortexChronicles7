@@ -1,7 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-damage = 1
-
-alarm[0] = 60
-
-depth = -200
+explosion_time = current_time

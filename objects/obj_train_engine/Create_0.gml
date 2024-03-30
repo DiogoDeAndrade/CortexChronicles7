@@ -8,6 +8,7 @@ explosion_scale = 2
 
 current_health = max_health
 prev_car = noone
+time_of_last_health_change = -1000
 
 function deal_damage(_damage)
 {
@@ -25,13 +26,15 @@ function deal_damage(_damage)
 	{
 		hit_effect();
 	}
+	
+	time_of_last_health_change = current_time
 }
 
 function hit_effect()
 {
 	if (timeline_running == false)
 	{
-		timeline_index = tl_flash_black
+		timeline_index = tl_flash_red
 		timeline_position = 0
 		timeline_running = true
 	}
@@ -43,7 +46,6 @@ function die()
 	image_index = 0;
 	image_xscale = explosion_scale;
 	image_yscale = explosion_scale;
-	phy_active = false;
 	
 	if (self.prev_car != noone)
 	{
@@ -52,15 +54,5 @@ function die()
 		{
 			next_car.prev_car = self.prev_car
 		}
-	}
-	
-	var _next_car = self.next_car
-	var _t = 15
-	while (_next_car != noone)
-	{
-		var _tmp = _next_car.next_car
-		_next_car.alarm[11] = _t
-		_t += 15
-		_next_car = _tmp
 	}
 }

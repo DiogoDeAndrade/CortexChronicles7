@@ -11,7 +11,7 @@
   "managed":true,
   "name":"obj_train_car",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_train_engine","path":"objects/obj_train_engine/obj_train_engine.yy",},"propertyId":{"name":"max_health","path":"objects/obj_train_engine/obj_train_engine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_train_engine","path":"objects/obj_train_engine/obj_train_engine.yy",},"propertyId":{"name":"max_health","path":"objects/obj_train_engine/obj_train_engine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
   ],
   "parent":{
     "name":"Objects",

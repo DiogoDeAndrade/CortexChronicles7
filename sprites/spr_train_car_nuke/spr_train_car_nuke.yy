@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_bullet",
+  "%Name":"spr_train_car_nuke",
   "bboxMode":0,
-  "bbox_bottom":1,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":1,
+  "bbox_right":31,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"77024e3c-7e52-4e4b-bb2c-3542fbbc3fec","name":"77024e3c-7e52-4e4b-bb2c-3542fbbc3fec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"06d3403a-53f5-438e-8f70-c3bb6fc7f737","name":"06d3403a-53f5-438e-8f70-c3bb6fc7f737","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":2,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"6544e4b4-14ae-4749-b88f-e25940b3c6c8","blendMode":0,"displayName":"default","isLocked":false,"name":"6544e4b4-14ae-4749-b88f-e25940b3c6c8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"578f4dd8-37b9-4c35-8a47-b7f74c15190a","blendMode":0,"displayName":"default","isLocked":false,"name":"578f4dd8-37b9-4c35-8a47-b7f74c15190a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_bullet",
+  "name":"spr_train_car_nuke",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"spr_bullet",
+    "%Name":"spr_train_car_nuke",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_bullet",
+    "name":"spr_train_car_nuke",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77024e3c-7e52-4e4b-bb2c-3542fbbc3fec","path":"sprites/spr_bullet/spr_bullet.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6c30098b-a0e7-4d0d-9f1c-f9fb2655f4b8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06d3403a-53f5-438e-8f70-c3bb6fc7f737","path":"sprites/spr_train_car_nuke/spr_train_car_nuke.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"07dec14b-ba71-4f5a-8907-c9ffdff6c2dd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":1,
-    "yorigin":1,
+    "xorigin":16,
+    "yorigin":8,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":2,
+  "width":32,
 }

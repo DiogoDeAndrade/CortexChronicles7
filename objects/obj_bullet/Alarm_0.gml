@@ -1,8 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (faction == 0)
-{
-	instance_destroy(self)
-
-	other.deal_damage(damage)
-}
+instance_destroy(self)
