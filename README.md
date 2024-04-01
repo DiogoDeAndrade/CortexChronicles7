@@ -1,4 +1,4 @@
-# THE CORTEX CHRONICLES, CHAPTER 7 - The Heist of Jax Riven
+# THE CORTEX CHRONICLES, CHAPTER 7 - The Assault of Jax Riven
 
 ![GameScreenshot](art/title.png)
 

@@ -8,3 +8,8 @@ function next_screen()
 {
 	alpha_inc = 1
 }
+
+function skip()
+{
+	next_screen();
+}

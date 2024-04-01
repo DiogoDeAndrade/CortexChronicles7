@@ -23,4 +23,11 @@ function die()
 	}
 	
 	instance_create_layer(x, y, "Bullets", obj_nuke_blast);
+	
+	instance_destroy(obj_drone)
+}
+
+function is_nuke()
+{
+	return true;
 }

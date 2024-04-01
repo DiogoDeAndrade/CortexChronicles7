@@ -7,7 +7,7 @@
   "managed":true,
   "name":"obj_train_car_nuke",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_train_engine","path":"objects/obj_train_engine/obj_train_engine.yy",},"propertyId":{"name":"max_health","path":"objects/obj_train_engine/obj_train_engine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_train_part","path":"objects/obj_train_part/obj_train_part.yy",},"propertyId":{"name":"max_health","path":"objects/obj_train_part/obj_train_part.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"Objects",

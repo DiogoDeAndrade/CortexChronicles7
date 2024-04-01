@@ -4,7 +4,7 @@ var _prev_rotation = turret_rotation
 var _ret = rotateTowards(x, y, turret_rotation, obj_train_car, max_radius, max_rotation_rate)
 if (_ret < 0)
 {
-	_ret = rotateTowards(x, y, turret_rotation, obj_train_engine, max_radius, max_rotation_rate)
+	_ret = rotateTowards(x, y, turret_rotation, obj_train_part, max_radius, max_rotation_rate)
 }
 
 if (_ret >= 0)

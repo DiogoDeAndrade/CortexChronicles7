@@ -11,15 +11,15 @@
   "managed":true,
   "name":"obj_train_car",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_train_engine","path":"objects/obj_train_engine/obj_train_engine.yy",},"propertyId":{"name":"max_health","path":"objects/obj_train_engine/obj_train_engine.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_train_part","path":"objects/obj_train_part/obj_train_part.yy",},"propertyId":{"name":"max_health","path":"objects/obj_train_part/obj_train_part.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
   ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_train_engine",
-    "path":"objects/obj_train_engine/obj_train_engine.yy",
+    "name":"obj_train_part",
+    "path":"objects/obj_train_part/obj_train_part.yy",
   },
   "persistent":false,
   "physicsAngularDamping":1.0,

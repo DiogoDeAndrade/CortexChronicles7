@@ -1,58 +1,41 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-joint_id = -1
-link1_pos_x = -4
-link2_pos_x = 0
-explosion_scale = 2
+// Inherit the parent event
+event_inherited();
 
-current_health = max_health
-prev_car = noone
-time_of_last_health_change = -1000
+alarm[10] = 60 * 5
 
-function deal_damage(_damage)
+global.wave_index = 0
+
+function next_wave()
 {
-	if (current_health <= 0)
+	if global.wave_index >= array_length(global.waves)
 	{
-		return;
-	}
-	current_health -= _damage;
-	
-	if (current_health <= 0)
-	{
-		die();
-	}
-	else
-	{
-		hit_effect();
+		global.wave_index = 0
 	}
 	
-	time_of_last_health_change = current_time
-}
-
-function hit_effect()
-{
-	if (timeline_running == false)
+	if global.wave_index < array_length(global.waves)
 	{
-		timeline_index = tl_flash_red
-		timeline_position = 0
-		timeline_running = true
-	}
-}
-
-function die()
-{
-	sprite_index = spr_explosion;
-	image_index = 0;
-	image_xscale = explosion_scale;
-	image_yscale = explosion_scale;
-	
-	if (self.prev_car != noone)
-	{
-		self.prev_car.next_car = next_car
-		if (next_car != noone)
+		var _wave = global.waves[global.wave_index]
+		
+		global.wave_index++
+		
+		for (var _i = 0; _i < array_length(_wave); _i++)
 		{
-			next_car.prev_car = self.prev_car
+			var _subwave = _wave[_i]
+			var _car = get_car(_subwave[0])
+			if (_car != noone)
+			{
+				var _cooldown = _subwave[1]
+				var _shot_count = _subwave[2]
+				var _spread = _subwave[3]
+				var _turrets = _subwave[4]
+				for (var _j = 0; _j < array_length(_turrets); _j++)
+				{
+					_car.activate_turret(_turrets[_j], _cooldown, _shot_count, _spread)
+				}
+			}
 		}
 	}
 }

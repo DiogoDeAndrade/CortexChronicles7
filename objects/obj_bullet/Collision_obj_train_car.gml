@@ -4,5 +4,8 @@ if (faction == 1) && (other.current_health > 0)
 {
 	instance_destroy(self)
 
-	other.deal_damage(damage)
+	if (!other.has_turret()) || (other.is_nuke())
+	{
+		other.deal_damage(damage)
+	}
 }

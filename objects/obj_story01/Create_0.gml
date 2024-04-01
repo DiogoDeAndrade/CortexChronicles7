@@ -32,14 +32,14 @@ story_beats =
 	[ 2, spr_portrait_jax2, "You think you'll get it done in time?" ],
 	[ 2, spr_portrait_engineer, "Well, it's not going to be pretty, but it will do the job..." ],
 	[ 2, spr_portrait_jax2, "That's ok, not aiming for pretty, more interested in 'weaponized'\nand 'armored'!" ],
-	[ 2, spr_portrait_engineer, "Got you covered there" ],
+	[ 2, spr_portrait_engineer, "Got you covered there! Little Timmy rocks!" ],
 	[ 0, spr_story04 ],
 	[ 1, 1 ],
 	[ 2, spr_portrait_jax3, "So, what do you think, boss?" ],
 	[ 2, spr_portrait_rowan2, "It's something, Jax...\nThere's something so human about this, I believe it will work!\nAt least Cortex won't expect it!" ],
-	[ 2, spr_portrait_jax3, "Can't wait to drive this thing, ah ah ah!" ],
-	[ 2, spr_portrait_rowan2, "You're driving?! You got some sort of deathwish?!" ],
-	[ 2, spr_portrait_jax3, "Of course I'm driving, who do you think I am?\nCan't let someone else have all the fun!\nBesides, Nyx had her moment at Cogwell's base, now it's my turn!" ],
+	[ 2, spr_portrait_jax3, "Can't wait to fly this thing, ah ah ah!" ],
+	[ 2, spr_portrait_rowan2, "You're driving?! You got some sort of deathwish?!\nThe neural feedback can kill you!" ],
+	[ 2, spr_portrait_jax3, "Of course I'm flying, who do you think I am?\nCan't let someone else have all the fun!\nBesides, Nyx had her moment at Cogwell's base, now it's my turn!" ],
 	[ 2, spr_portrait_rowan2, "Alright..." ],
 	[ 0, spr_story05 ],
 	[ 2, undefined, "Godspeed..." ],
@@ -48,4 +48,4 @@ story_beats =
 // Inherit the parent event
 event_inherited();
 
-next_screen_name = rm_level01
+next_screen_name = rm_game01
