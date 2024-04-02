@@ -16,9 +16,16 @@ I'm going to use code, since I prefer to program than using visual tools.
 In this game, you play as Jax Riven, a former D-Boy turned freedom fighter. In the previous game, our heroes infiltrated the research lab of Doctor Cogwell and exposed
 some weaknesses on the Prime Nexus. Now, they need a tactical nuclear warhead for their plans, and will have to use an armored hovertrain to steal it!
 
+![GameScreenshot](screenshots/screen02.png)
+
+Use WASD to control the drone, and aim with the mouse. You can shoot with the left mouse button.
+You have to take out all the cars (except the nuke car) and the engine on each level. If you hit the nuke car too much, it will detonate and you lose.
+
 ## Art
 
 - Everything done by Diogo de Andrade, licensed through the [CC0] license.
+
+![GameScreenshot](screenshots/screen04.png)
 
 ## Sound
 
