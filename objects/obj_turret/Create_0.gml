@@ -4,8 +4,9 @@ event_inherited()
 
 explosion_scale = 1
 hp_width = 4
-hp_height = 0.25
+hp_height = 1
 hp_offset = 5
+hp_outline = false
 
 has_target = false
 time_of_last_shot = -1000
@@ -18,6 +19,8 @@ shot_spread = 30
 
 offset_x = 0
 offset_y = 0
+
+explosion_sound = snd_turret_explode
 
 function shoot(_rot)
 {

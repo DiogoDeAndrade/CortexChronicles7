@@ -5,4 +5,6 @@ if (faction == 2) && (other.current_health > 0)
 	instance_destroy(self)
 
 	other.deal_damage(damage)
+	
+	snd_hit(0.5);
 }

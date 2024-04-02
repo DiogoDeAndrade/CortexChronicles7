@@ -58,4 +58,8 @@ function die()
 	image_index = 0;
 	image_xscale = explosion_scale;
 	image_yscale = explosion_scale;
+	
+	var _snd = audio_play_sound(snd_drone_explode, 0, false);
+	audio_sound_gain(_snd, 0.75, 0);
+	audio_sound_pitch(_snd, random_range(0.75, 1.25));
 }

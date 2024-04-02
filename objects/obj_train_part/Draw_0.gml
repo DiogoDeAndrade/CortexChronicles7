@@ -15,6 +15,6 @@ if (current_health > 0) && (current_health < max_health) && (_elapsed < 1000)
 	var _alpha = clamp((1000 - _elapsed) / 100, 0, 1)
 	
 	draw_set_alpha(_alpha);
-	draw_healthbar(_bx - hp_width, _by - hp_height, _bx + hp_width, _by + hp_height, _p, c_black, c_red, c_green, 0, true, true);
+	draw_healthbar(_bx - hp_width, _by - hp_height, _bx + hp_width, _by + hp_height, _p, c_black, c_red, c_green, 0, true, hp_outline);
 	draw_set_alpha(1);
 }

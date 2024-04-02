@@ -7,5 +7,10 @@ if (faction == 1) && (other.current_health > 0)
 	if (other.count_cars() <= 1)
 	{
 		other.deal_damage(damage)
+		snd_hit(0.05);
+	}
+	else
+	{
+		snd_rico();
 	}
 }

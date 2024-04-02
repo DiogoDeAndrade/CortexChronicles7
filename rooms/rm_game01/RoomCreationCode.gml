@@ -29,3 +29,11 @@ global.waves = [
 global.next_level = rm_story02
 
 window_set_cursor(cr_cross)
+
+if !instance_exists(obj_sound_manager)
+{
+	var _inst = instance_create_layer(0, 0, "Instances", obj_sound_manager);
+}
+
+obj_sound_manager.play_wind();
+obj_sound_manager.play_main_music();

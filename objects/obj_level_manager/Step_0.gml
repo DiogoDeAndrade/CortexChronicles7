@@ -7,5 +7,6 @@ if !instance_exists(obj_train_engine) && (alarm[0] < 0)
 
 if (keyboard_check(vk_control) && keyboard_check(vk_shift) && keyboard_check(ord("L"))) {
     // Ctrl+Shift+L is currently being pressed
+	obj_sound_manager.stop_wind()
     room_goto(global.next_level)
 }

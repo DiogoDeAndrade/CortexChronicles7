@@ -20,7 +20,21 @@ some weaknesses on the Prime Nexus. Now, they need a tactical nuclear warhead fo
 
 - Everything done by Diogo de Andrade, licensed through the [CC0] license.
 
-## Licenses
+## Sound
+
+- Nuclear explosion by [unfa], licensed through the [CC0] license.
+- Shot by [pgi], licensed through the [CC0] license.
+- Thump by [TechGeekMusic], licensed through the [CC0] license.
+- Ricochet by [cedarstudios], licensed through the [CC0] license.
+- Explosions by [Anomaex] / [magnuswaker] / [JuveriSetila], licensed through the [CC0] license.
+- Overheat sound by [Marregheriti], licensed through the [CC0] license.
+- Gun cocking sound by [Cloud-10], licensed through the [CC0] license.
+- Alarm sound by [jobro], licensed through the [CC0] license.
+- Main game music by [Migfus20], licensed through the [CC0] license.
+- Logo music by [João Camacho], licensed to Spellcaster Studios
+- Title music by [awrmacd], licensed through the [CC0] license.
+
+## Code
 
 - Scrolling text code by [Musical Kittehs], licensed through the [CC0] license.
 - All remaining game source code by Diogo de Andrade is licensed under the [MIT] license.
@@ -36,3 +50,15 @@ some weaknesses on the Prime Nexus. Now, they need a tactical nuclear warhead fo
 [MIT]:LICENSE
 [GameMaker]:https://gamemaker.io/en
 [Musical Kittehs]:https://www.youtube.com/watch?v=3QUwo4_g3uw
+[unfa]:https://freesound.org/people/unfa/
+[pgi]:https://freesound.org/people/pgi/
+[TechGeekMusic]:https://freesound.org/people/TechGeekMusic/
+[cedarstudios]:https://freesound.org/people/cedarstudios/
+[Anomaex]:https://freesound.org/people/Anomaex/
+[magnuswaker]:https://freesound.org/people/magnuswaker/
+[JuveriSetila]:https://freesound.org/people/JuveriSetila/
+[Migfus20]:https://freesound.org/people/Migfus20/
+[awrmacd]:https://freesound.org/people/awrmacd/
+[Marregheriti]:https://freesound.org/people/Marregheriti/
+[Cloud-10]:https://freesound.org/people/Cloud-10/
+[jobro]:https://freesound.org/people/jobro/

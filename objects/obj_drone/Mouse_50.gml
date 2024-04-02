@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
 var _elapsed = current_time - time_of_last_shot;
 if (_elapsed > 100) && (!overheat)
 {
@@ -20,9 +18,24 @@ if (_elapsed > 100) && (!overheat)
 		
 	time_of_last_shot = current_time
 	
+	var _prev = heat
 	heat = heat + heatSpeed
+	
+	if (_prev < 80) && (heat > 80)
+	{
+		var _snd = audio_play_sound(snd_alarm, 0, false);
+		audio_sound_gain(_snd, 0.6, 0);
+	}
+
 	if (heat > 100)
 	{
 		overheat = true
+		
+		var _snd = audio_play_sound(snd_overheat, 0, false);
+		audio_sound_gain(_snd, 0.8, 0);
 	}
+	
+	var _snd = audio_play_sound(snd_machine_gun, 0, false);
+	audio_sound_gain(_snd, 0.05, 0);
+	audio_sound_pitch(_snd, random_range(0.75, 1.25));
 }

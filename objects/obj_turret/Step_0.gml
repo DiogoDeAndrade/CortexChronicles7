@@ -60,5 +60,9 @@ if (_dd < 1) && (has_target)
 			}
 		}
 		time_of_last_shot = current_time
+		
+		var _snd = audio_play_sound(snd_machine_gun, 0, false);
+		audio_sound_gain(_snd, 0.025, 0);
+		audio_sound_pitch(_snd, random_range(0.75, 1.25));
 	}
 }

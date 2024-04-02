@@ -8,10 +8,12 @@ explosion_scale = 2
 hp_width = 10
 hp_height = 1
 hp_offset = 10
+hp_outline = true
 
 current_health = max_health
 prev_car = noone
 time_of_last_health_change = -1000
+explosion_sound = snd_car_explode
 
 depth = 90
 
@@ -59,6 +61,13 @@ function die()
 		{
 			next_car.prev_car = self.prev_car
 		}
+	}
+	
+	if (explosion_sound != noone)
+	{
+		var _snd = audio_play_sound(explosion_sound, 0, false);
+		audio_sound_gain(_snd, 0.75, 0);
+		audio_sound_pitch(_snd, random_range(0.75, 1.25));
 	}
 }
 

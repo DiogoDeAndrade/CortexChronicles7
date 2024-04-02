@@ -44,10 +44,18 @@ if (abs(speed_y) < 0.01) speed_y = 0;
 if heat > 0
 {
 	if (overheat) heat -= coolSpeed	* 0.5
-	else heat -= coolSpeed	
+	else 
+	{
+		heat -= coolSpeed
+	}
 }
 else
 {
+	if overheat
+	{
+		var _snd = audio_play_sound(snd_cock, 0, false);
+		audio_sound_gain(_snd, 0.8, 0);
+	}
 	heat = 0
 	overheat = false
 }
